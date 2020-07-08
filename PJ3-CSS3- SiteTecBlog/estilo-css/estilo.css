@@ -1,0 +1,142 @@
+
+ 
+/*Limpar formatações padrão*/
+/*"*" significa todos, ou seja realizando um seletor em todos os parametros*/
+ *{
+ 	padding: 0;
+ 	margin: 0;
+ }
+
+ body{
+ 	font-size: 1em;
+ 	font-family:"Trebuchet MS", Helvetica,sans-serif;  
+ 	background: #e6e6e6;
+ }
+
+ /*AREA MENU*/
+
+#area-cabecalho{
+	background-color: #f7b600;
+	padding: 15px;
+	text-align: center;
+}
+
+#logo,#menu{
+
+	padding :10px;
+
+	
+}
+
+.branco{
+	color: #FFF;
+}
+
+#menu a:link,  #menu a:visited{
+	padding: 10px;
+	color: #FFF;
+
+}
+
+#menu a:hover{
+	background-color: white;
+	color: #f7b600;
+}
+
+
+
+/*AREA POSTAGEM*/
+#area-principal{
+	width: 920px;
+	margin: 0px auto;
+	
+	padding: 15px;	
+
+
+}
+
+#area-postagens{
+	width: 660px;
+	float: left;
+	
+
+}
+
+.data-postagem{
+	font-size: 0.8em;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #f4f4f4;
+	display: block;
+
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	
+}
+
+
+
+#area-lateral{
+	width: 240px;
+	
+	float: right;
+	
+	
+}
+
+
+.conteudo-lateral{
+	
+	padding: 10px;
+	margin-bottom: 20px;
+ 	
+
+}
+
+.postagem-lateral{
+font-size: 0.8em;
+padding:5px;
+border-bottom: 1px dotted #CCC;
+
+}
+
+#rodape{
+	clear: both;
+	background-color:  #CCC;
+	text-align: center;
+	padding: 15px;
+	
+}
+
+
+
+
+/*formatação geral*/
+
+a{
+	text-decoration: none;
+	color: #f7b600;
+	
+}
+
+h1{
+	font-size: 2.5em;
+	color:#4e4e4e;
+
+
+}
+
+h2{
+	color: #f7b600
+}
+
+h3{
+	color: #565656;
+	background-color: #CCC;
+	padding: 5px;
+}
+

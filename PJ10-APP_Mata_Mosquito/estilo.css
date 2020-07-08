@@ -1,0 +1,63 @@
+html{
+	cursor: url(imagens/mata_mosquito.png) 30 30, auto;
+}
+
+body{
+	background-image: url(imagens/bg.jpg);	
+	background-repeat: no-repeat;
+	
+ }
+	
+
+/*Criando classes de tamanho mosquito*/
+.mosquito1 {
+   width: 50px;
+   height: 50px;
+}
+
+.mosquito2 {
+   width: 70px;
+   height: 70px;
+}
+
+.mosquito3 {
+   width: 90px;
+   height: 90px;
+}
+
+/*alterando lado da imagem utilizando clase ladoA e ladoB */
+.ladoA{
+	transform: scaleX(1);
+}
+
+.ladoB{
+	transform: scaleX(-1);
+}
+
+/*Aplicando um estilo para classe painel , vida e cronometro*/
+.painel{
+	width: 190px;
+	padding: 10px;
+	border-top: 1px solid #fff;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background-color:#fff; 
+	opacity: 0.7;
+}
+
+.vida{
+	float:left;
+}
+
+.cronometro{
+	float:left;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.score{
+	float:left;
+	font-size: 20px;
+	font-weight: bold;
+}

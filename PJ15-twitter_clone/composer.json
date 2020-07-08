@@ -1,0 +1,19 @@
+{
+	"name":"miniframework",
+	"require":{
+		"php":">= 7.0"
+	},
+	"authors":[
+		{
+			"name": "Victor Lopes de Castro Veiga",
+			"email": "webenviocurso@gmail.com"
+		}
+	],
+	
+	"autoload": {
+		"psr-4": {
+			"App\\": "App/",
+			"MF\\":"vendor/MF/"
+		}
+	}
+}
